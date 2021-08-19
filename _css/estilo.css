@@ -20,7 +20,7 @@ p{
 
 header#cabecalho img#icone{
     position: absolute;
-    left: 790px;
+    left: 1250px;
     top: 50px;
 }
 
@@ -87,14 +87,14 @@ nav#menu ul {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: -20px;
-    left: 300px;
+    top: -10px;
+    left: 840px;
 }
 
 nav#menu li{
     display: inline-block;
     background-color: #dddddd;
-    padding: 10px;
+    padding: 5px;
     margin: 2px;
     transition: background-color 1s;
     -webkit-transition: background-color 1s;
@@ -116,4 +116,64 @@ nav#menu a{
 
 nav#menu a:hover{
     color: #ffffff;
+}
+
+section#corpo{
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 20px;
+}
+
+table#tabelaSpec{
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: 65px;
+}
+
+table#tabelaSpec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+}
+
+table#tabelaSpec td.ce{
+    color: #ffffff;
+    background-color: #606060;
+    font-weight: bold;
+    text-align: right;
+}
+
+table#tabelaSpec td.cd{
+    background-color: #cecece;
+}
+
+table#tabelaSpec caption{
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#tabelaSpec caption span{
+    color: black;
+    display: block;
+    font-size: 8pt;
+    margin-top: 10px;
+    float: right;
+}
+
+aside#lateral{
+    display: block;
+    width: 350px;
+    float: right;
+}
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
 }
